@@ -1,0 +1,37 @@
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual environments ─────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Jupyter ──────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS junk ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Large data files (auto-downloaded / too big for GitHub) ──
+data/household_power_consumption.txt
+data/weather_data.csv
+
+# ── Generated report (can be regenerated with make_report.py)
+# Uncomment the next line if you do NOT want the .docx in the repo:
+# Akash_Kumar_DozAI_ProjectReport.docx

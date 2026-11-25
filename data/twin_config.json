@@ -1,0 +1,78 @@
+{
+  "tariff": {
+    "off_peak": {
+      "rate_rs": 5.0,
+      "hours": [
+        22,
+        23,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "mid": {
+      "rate_rs": 6.5,
+      "hours": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    "peak": {
+      "rate_rs": 9.0,
+      "hours": [
+        18,
+        19,
+        20,
+        21
+      ]
+    }
+  },
+  "appliances": {
+    "dishwasher": {
+      "kw": 1.1,
+      "slots": 8,
+      "noisy": true
+    },
+    "washer": {
+      "kw": 0.6,
+      "slots": 10,
+      "noisy": true,
+      "deadline_h": 14
+    },
+    "dryer": {
+      "kw": 2.2,
+      "slots": 12,
+      "noisy": true
+    },
+    "water_heater": {
+      "kw": 2.0,
+      "slots": 8,
+      "noisy": false
+    },
+    "ev_charger": {
+      "kw": 3.3,
+      "slots": 24,
+      "noisy": false,
+      "deadline_h": 6
+    }
+  },
+  "thermal": {
+    "G": 3.0,
+    "E": 3.0,
+    "T_opt": 18.5,
+    "T_min": 16.0
+  }
+}
